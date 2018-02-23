@@ -8,5 +8,15 @@
       "id": "2",
       "name": "wilfried allart"
     }
+  ],
+  "action": [
+    {
+      "id_action": "1",
+      "activity": "fais du ski"
+    },
+    {
+      "id_action": "1",
+      "activity": "fais du snow"
+    }
   ]
 }

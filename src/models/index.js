@@ -1,4 +1,6 @@
 const UserModel = require("./UserModel");
+const ActionModel = require("./ActionModel");
 module.exports = {
-	User: UserModel
+	User: UserModel,
+	Action: ActionModel
 };

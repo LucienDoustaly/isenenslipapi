@@ -31,7 +31,7 @@ module.exports = {
 				bodyParsers: {
 	                json: true,
 	            },
-				path: "/api/v1/",
+				path: "/",
 				whitelist: [
 					// Access to any actions in all services
 					"*"
@@ -45,6 +45,10 @@ module.exports = {
 					//user
 					"GET user/:id": "user.get", //check
 					"GET user/": "user.getAll", //check
+
+					//action
+					"GET action/:id_action": "action.get", //check
+					"GET action/": "action.getAll", //check
 				}
 			}
 		]
