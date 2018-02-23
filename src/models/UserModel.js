@@ -4,12 +4,12 @@ var fields_reducers = {
 };
 
 
-var UtilisateurModel = function(params) {
+var PlayerModel = function(params) {
 	this.id = params.id || "";
 	this.name = params.name || "";
 }
 
-UtilisateurModel.prototype.create = function() {
+PlayerModel.prototype.create = function() {
 
 	var valid = true;
 
@@ -37,4 +37,4 @@ UtilisateurModel.prototype.create = function() {
 }
 
 
-module.exports = UtilisateurModel;
+module.exports = PlayerModel;

@@ -43,23 +43,8 @@ module.exports = {
 					// "POST user/:auth0_id": "user.create",
 
 					//user
-					"GET user/:id": "utilisateur.get", //check
-					"GET user/": "utilisateur.getAll", //check
-
-					//product
-					"POST product": "products.create",//check
-					"GET product/:id_product": "products.get", //check
-					"PATCH product/:id_product": "products.edit", //check
-					"PATCH product/:id_product/increment": "products.increment",//check
-					"PATCH product/:id_product/decrement": "products.decrement",//check
-
-					//commande
-					"POST order/user/:id_user": "commandes.create",//check
-					"GET order/:id_order": "commandes.getidC",//check
-					"GET order/user/:id_user": "commandes.getidU",//check
-					"PATCH order/:id_order/product/:id_product/increment": "commandes.increment",//check
-					"PATCH order/:id_order/product/:id_product/decrement": "commandes.decrement",//check
-					"PATCH order/:id_order": "commandes.validation"//check
+					"GET user/:id": "user.get", //check
+					"GET user/": "user.getAll", //check
 				}
 			}
 		]

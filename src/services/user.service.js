@@ -5,7 +5,7 @@ const Models = require("../models");
 const { MoleculerError } = require("moleculer").Errors;
 
 module.exports = {
-	name: "utilisateur",
+	name: "user",
 
 	settings: {
  		state: {
@@ -15,7 +15,7 @@ module.exports = {
 
 	actions: {
 
-		//	call "utilisateur.getAll"
+		//	call "user.getAll"
 		getAll: {
 			params: {
 
@@ -23,37 +23,37 @@ module.exports = {
 			handler(ctx) {
 				return Database()
 					.then((db) => {
-						return db.get("utilisateur").value();
+						return db.get("user").value();
 					});
 			}
 		},
 
 
-		//	call "utilisateur.get" --id "ab@ab"
+		//	call "user.get" --id "ab@ab"
 		get: {
 			params: {
 				id: "string"
 			},
 			handler(ctx) {
-				return ctx.call("utilisateur.verify", { id: ctx.params.id })
+				return ctx.call("user.verify", { id: ctx.params.id })
 				.then((exists) => {
 					if (exists) {
 						return Database()
 							.then((db) => {
-								var user = db.get("utilisateur").find({ id: ctx.params.id }).value();;
+								var user = db.get("user").find({ id: ctx.params.id }).value();;
 								return user;
 							})
 							.catch(() => {
-								return new MoleculerError("Utilisateur", 500, "ERR_CRITIAL", { code: 500, message: "Critical error" } )
+								return new MoleculerError("User", 500, "ERR_CRITIAL", { code: 500, message: "Critical error" } )
 							});
 					} else {
-						return new MoleculerError("Utilisateur", 404, "NOT FOUND", { code: 404, message: "Utilisateur doesn't exists" } )
+						return new MoleculerError("User", 404, "NOT FOUND", { code: 404, message: "User doesn't exists" } )
 					}
 				})
 			}
 		},
 
-		//	call "utilisateur.verify" --id
+		//	call "user.verify" --id
 		verify: {
 			params: {
 				id: "string"
@@ -61,7 +61,7 @@ module.exports = {
 			handler(ctx) {
 				return Database()
 					.then((db) => {
-						var value = db.get("utilisateur")
+						var value = db.get("user")
 										.filter({ id: ctx.params.id })
 										.value();
 						return value.length > 0 ? true : false;

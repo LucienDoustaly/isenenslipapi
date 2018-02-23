@@ -1,4 +1,4 @@
-const UtilisateurModel = require("./UtilisateurModel");
+const UserModel = require("./UserModel");
 module.exports = {
-	Utilisateur: UtilisateurModel
+	User: UserModel
 };
