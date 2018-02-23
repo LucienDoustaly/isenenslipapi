@@ -25,11 +25,11 @@ npm run lint
 Example of API query :
 
 ```
-#Get user
+# Get user
 mysite.io/user/ to get all users
 mysite.io/user/1 to get the user with the id equal 1
 
-#Get action
+# Get action
 mysite.io/action/ to get all users
 mysite.io/action/2 to get the action with the id_action equal 2
 ```
