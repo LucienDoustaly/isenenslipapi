@@ -1,21 +1,37 @@
 {
   "user": [
+	{
+      "id": "0",
+      "name": "lucien doustaly"
+    },
     {
       "id": "1",
-      "name": "lucien doustaly"
+      "name": "sandro tavagnacco"
     },
     {
       "id": "2",
       "name": "wilfried allart"
+    },
+	{
+      "id": "3",
+      "name": "bastien rodrigue"
     }
   ],
   "action": [
     {
-      "id_action": "1",
+      "id_action": "0",
       "activity": "fais du ski"
     },
     {
+      "id_action": "1",
+      "activity": "fais du snow"
+    },
+	{
       "id_action": "2",
+      "activity": "est en train de chier"
+    },
+    {
+      "id_action": "3",
       "activity": "fais du snow"
     }
   ]
