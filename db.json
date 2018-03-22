@@ -194,21 +194,129 @@
     }    
   ],
   "action": [
-    {
-      "id_action": "0",
-      "activity": "fais du ski"
+	{
+	  "id_action": "0",
+	  "activity": "en garde à vue"
     },
     {
       "id_action": "1",
-      "activity": "fais du snow"
+      "activity": "fait du snow"
     },
     {
       "id_action": "2",
-      "activity": "est en train de chier"
+      "activity": "fait caca"
     },
     {
       "id_action": "3",
-      "activity": "fais du snow"
+      "activity": "twerk"
+    },
+    {
+      "id_action": "4",
+      "activity": "chante sous la douche"
+    },
+    {
+      "id_action": "5",
+      "activity": "mange des pommes"
+    },
+    {
+      "id_action": "6",
+      "activity": "passe son code"
+    },
+    {
+      "id_action": "7",
+      "activity": "fais du poney"
+    },
+    {
+      "id_action": "8",
+      "activity": "devant un site porno"
+    },
+    {
+      "id_action": "9",
+      "activity": "au pôle emploi"
+    },
+    {
+      "id_action": "10",
+      "activity": "en slip"
+    },
+    {
+      "id_action": "11",
+      "activity": "au royaume du sel"
+    },
+    {
+      "id_action": "12",
+      "activity": "tourne un film J&M"
+    },
+    {
+      "id_action": "13",
+      "activity": "fais du zbeul"
+    },
+    {
+      "id_action": "14",
+      "activity": "chez l'esthéticienne"
+    },
+    {
+      "id_action": "15",
+      "activity": "s'amuse en jee"
+    },
+    {
+      "id_action": "16",
+      "activity": "mange du nutella"
+    },
+    {
+      "id_action": "17",
+      "activity": "joue à wow"
+    },
+    {
+      "id_action": "18",
+      "activity": "se fait menotter"
+    },
+    {
+      "id_action": "19",
+      "activity": "nique des mères"
+    },
+    {
+      "id_action": "20",
+      "activity": "fume le dragon"
+    },
+    {
+      "id_action": "21",
+      "activity": "joue du pipo"
+    },
+    {
+      "id_action": "22",
+      "activity": "ventille un max"
+    },
+    {
+      "id_action": "23",
+      "activity": "mange un tacos"
+    },
+    {
+      "id_action": "24",
+      "activity": "en string borat"
+    },
+    {
+      "id_action": "25",
+      "activity": "chez le gynéco"
+    },
+    {
+      "id_action": "26",
+      "activity": "fait la cuisine"
+    },
+    {
+      "id_action": "27",
+      "activity": "joue à fortnite"
+    },
+    {
+      "id_action": "28",
+      "activity": "à la patinoire"
+    },
+    {
+      "id_action": "29",
+      "activity": "roule un bédo"
+    },
+    {
+      "id_action": "30",
+      "activity": "se cure le nez"
     }
   ]
 }
